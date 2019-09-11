@@ -1,6 +1,8 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  cout << "Hello World!\n";
+  int ival=42;
+  int *p=&ival;
+  cout<<p<<" "<<*p<<" "<<&p;
 }
