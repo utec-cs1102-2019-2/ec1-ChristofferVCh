@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named session4b2
+
+# Build rule for target.
+session4b2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 session4b2
+.PHONY : session4b2
+
+# fast build rule for target.
+session4b2/fast:
+	$(MAKE) -f CMakeFiles\session4b2.dir\build.make CMakeFiles/session4b2.dir/build
+.PHONY : session4b2/fast
+
+#=============================================================================
 # Target rules for targets named session4b
 
 # Build rule for target.
@@ -121,6 +134,73 @@ session4b: cmake_check_build_system
 session4b/fast:
 	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/build
 .PHONY : session4b/fast
+
+#=============================================================================
+# Target rules for targets named session4b3
+
+# Build rule for target.
+session4b3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 session4b3
+.PHONY : session4b3
+
+# fast build rule for target.
+session4b3/fast:
+	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/build
+.PHONY : session4b3/fast
+
+ejercicio4.obj: ejercicio4.cpp.obj
+
+.PHONY : ejercicio4.obj
+
+# target to build an object file
+ejercicio4.cpp.obj:
+	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/ejercicio4.cpp.obj
+.PHONY : ejercicio4.cpp.obj
+
+ejercicio4.i: ejercicio4.cpp.i
+
+.PHONY : ejercicio4.i
+
+# target to preprocess a source file
+ejercicio4.cpp.i:
+	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/ejercicio4.cpp.i
+.PHONY : ejercicio4.cpp.i
+
+ejercicio4.s: ejercicio4.cpp.s
+
+.PHONY : ejercicio4.s
+
+# target to generate assembly for a file
+ejercicio4.cpp.s:
+	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/ejercicio4.cpp.s
+.PHONY : ejercicio4.cpp.s
+
+ejericio3.obj: ejericio3.cpp.obj
+
+.PHONY : ejericio3.obj
+
+# target to build an object file
+ejericio3.cpp.obj:
+	$(MAKE) -f CMakeFiles\session4b2.dir\build.make CMakeFiles/session4b2.dir/ejericio3.cpp.obj
+.PHONY : ejericio3.cpp.obj
+
+ejericio3.i: ejericio3.cpp.i
+
+.PHONY : ejericio3.i
+
+# target to preprocess a source file
+ejericio3.cpp.i:
+	$(MAKE) -f CMakeFiles\session4b2.dir\build.make CMakeFiles/session4b2.dir/ejericio3.cpp.i
+.PHONY : ejericio3.cpp.i
+
+ejericio3.s: ejericio3.cpp.s
+
+.PHONY : ejericio3.s
+
+# target to generate assembly for a file
+ejericio3.cpp.s:
+	$(MAKE) -f CMakeFiles\session4b2.dir\build.make CMakeFiles/session4b2.dir/ejericio3.cpp.s
+.PHONY : ejericio3.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,9 +235,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... session4b2
 	@echo ... session4b
+	@echo ... session4b3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ejercicio4.obj
+	@echo ... ejercicio4.i
+	@echo ... ejercicio4.s
+	@echo ... ejericio3.obj
+	@echo ... ejericio3.i
+	@echo ... ejericio3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
