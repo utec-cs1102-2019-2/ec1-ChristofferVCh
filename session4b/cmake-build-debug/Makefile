@@ -148,6 +148,19 @@ session4b3/fast:
 	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/build
 .PHONY : session4b3/fast
 
+#=============================================================================
+# Target rules for targets named session4b4
+
+# Build rule for target.
+session4b4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 session4b4
+.PHONY : session4b4
+
+# fast build rule for target.
+session4b4/fast:
+	$(MAKE) -f CMakeFiles\session4b4.dir\build.make CMakeFiles/session4b4.dir/build
+.PHONY : session4b4/fast
+
 ejercicio4.obj: ejercicio4.cpp.obj
 
 .PHONY : ejercicio4.obj
@@ -174,6 +187,36 @@ ejercicio4.s: ejercicio4.cpp.s
 ejercicio4.cpp.s:
 	$(MAKE) -f CMakeFiles\session4b3.dir\build.make CMakeFiles/session4b3.dir/ejercicio4.cpp.s
 .PHONY : ejercicio4.cpp.s
+
+ejercicio5.obj: ejercicio5.cpp.obj
+
+.PHONY : ejercicio5.obj
+
+# target to build an object file
+ejercicio5.cpp.obj:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio5.cpp.obj
+	$(MAKE) -f CMakeFiles\session4b4.dir\build.make CMakeFiles/session4b4.dir/ejercicio5.cpp.obj
+.PHONY : ejercicio5.cpp.obj
+
+ejercicio5.i: ejercicio5.cpp.i
+
+.PHONY : ejercicio5.i
+
+# target to preprocess a source file
+ejercicio5.cpp.i:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio5.cpp.i
+	$(MAKE) -f CMakeFiles\session4b4.dir\build.make CMakeFiles/session4b4.dir/ejercicio5.cpp.i
+.PHONY : ejercicio5.cpp.i
+
+ejercicio5.s: ejercicio5.cpp.s
+
+.PHONY : ejercicio5.s
+
+# target to generate assembly for a file
+ejercicio5.cpp.s:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio5.cpp.s
+	$(MAKE) -f CMakeFiles\session4b4.dir\build.make CMakeFiles/session4b4.dir/ejercicio5.cpp.s
+.PHONY : ejercicio5.cpp.s
 
 ejericio3.obj: ejericio3.cpp.obj
 
@@ -238,11 +281,15 @@ help:
 	@echo ... session4b2
 	@echo ... session4b
 	@echo ... session4b3
+	@echo ... session4b4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ejercicio4.obj
 	@echo ... ejercicio4.i
 	@echo ... ejercicio4.s
+	@echo ... ejercicio5.obj
+	@echo ... ejercicio5.i
+	@echo ... ejercicio5.s
 	@echo ... ejericio3.obj
 	@echo ... ejericio3.i
 	@echo ... ejericio3.s
