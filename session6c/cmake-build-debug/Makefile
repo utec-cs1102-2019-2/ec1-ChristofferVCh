@@ -181,6 +181,7 @@ ejercicio2.obj: ejercicio2.cpp.obj
 
 # target to build an object file
 ejercicio2.cpp.obj:
+	$(MAKE) -f CMakeFiles\session6c.dir\build.make CMakeFiles/session6c.dir/ejercicio2.cpp.obj
 	$(MAKE) -f CMakeFiles\session6c2.dir\build.make CMakeFiles/session6c2.dir/ejercicio2.cpp.obj
 .PHONY : ejercicio2.cpp.obj
 
@@ -190,6 +191,7 @@ ejercicio2.i: ejercicio2.cpp.i
 
 # target to preprocess a source file
 ejercicio2.cpp.i:
+	$(MAKE) -f CMakeFiles\session6c.dir\build.make CMakeFiles/session6c.dir/ejercicio2.cpp.i
 	$(MAKE) -f CMakeFiles\session6c2.dir\build.make CMakeFiles/session6c2.dir/ejercicio2.cpp.i
 .PHONY : ejercicio2.cpp.i
 
@@ -199,6 +201,7 @@ ejercicio2.s: ejercicio2.cpp.s
 
 # target to generate assembly for a file
 ejercicio2.cpp.s:
+	$(MAKE) -f CMakeFiles\session6c.dir\build.make CMakeFiles/session6c.dir/ejercicio2.cpp.s
 	$(MAKE) -f CMakeFiles\session6c2.dir\build.make CMakeFiles/session6c2.dir/ejercicio2.cpp.s
 .PHONY : ejercicio2.cpp.s
 
