@@ -1,0 +1,3 @@
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/TareaPOO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/TareaPOO/cmake-build-debug/CMakeFiles/TareaPOO.dir
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/TareaPOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
