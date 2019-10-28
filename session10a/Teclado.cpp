@@ -1,5 +1,6 @@
-//
-// Created by Christoffer on 23/10/2019.
-//
-
 #include "Teclado.h"
+using namespace std;
+
+string CTeclado::getDescription() {
+    return m_lang+" -- "+m_marca;
+}

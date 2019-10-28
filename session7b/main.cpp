@@ -24,7 +24,6 @@ int main() {
     int columnas; cout<<"Ingrese el numero de columnas: "; cin>>columnas;
     int filas; cout<<"Ingrese el numero de flas: "; cin>>filas;
     int ***matriz= nullptr;
-
     matriz = new int **[filas];
     for (int i = 0; i < filas; i++) {
         matriz[i] = new int*[columnas];

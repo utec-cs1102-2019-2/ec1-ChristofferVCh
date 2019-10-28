@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Alumno.cpp
+Alumno.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Alumno.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Alumno.h
+iostream
+-
+Persona.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Persona.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Carrera.cpp
+Carrera.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Carrera.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Carrera.h
+iostream
+-
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Persona.cpp
+Persona.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Persona.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Persona.h
+iostream
+-
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/main.cpp
+iostream
+-
+Persona.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Persona.h
+Alumno.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/session10b/Alumno.h
+

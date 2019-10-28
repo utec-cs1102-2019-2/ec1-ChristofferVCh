@@ -3,3 +3,6 @@
 //
 
 #include "Laboratorio.h"
+void Laboratorio::agregarCompuatdora(Computadora &c){
+    this->computadoras.push_back(c);
+}

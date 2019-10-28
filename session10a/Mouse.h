@@ -6,11 +6,14 @@
 #define SESSION10A_MOUSE_H
 
 
-
 class Mouse {
-
+private:
+    string marca;
+    vector<int> color;
+    double precision(8.5);
+public:
+    void printDescription();
 };
-
 
 
 #endif //SESSION10A_MOUSE_H
