@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Baraja.h
+vector
+-
+Palo.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Palo.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Carta.h
+iostream
+-
+vector
+-
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Juego.cpp
+Juego.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Juego.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Juego.h
+Baraja.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Baraja.h
+iostream
+-
+Carta.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Carta.h
+
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Palo.h
+iostream
+-
+Carta.h
+C:/Users/Christoffer/Documents/EC1/ec1-ChristofferVCh/Session14a/Carta.h
+
